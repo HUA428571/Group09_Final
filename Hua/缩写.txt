@@ -1,0 +1,212 @@
+Carriers部分航空公司二字码：
+CA Air China Limited中国国际航空股份有限公司 
+AC Air Canada加拿大航空公司 
+AY Finnair芬兰航空公司 
+B7 UNI Airways台湾立荣航空公司 
+BD BMI British Midland英国英伦航空公司 
+BR EVA Airways台湾长荣航空公司 
+ET Ethiopian Airlines埃塞俄比亚航空公司 
+CX Cathay Pacific Airways香港国泰航空公司 
+JJ TAM Linhas Aereas巴西TAM航空公司 
+KA Dragonair香港港龙航空公司 
+LH Lufthansa German Airlines AG 德国汉莎航空公司 
+LO LOT Polish Airlines波兰航空公司 
+LY Libyan Arab Jamahiriya以色列航空公司 
+MS Egyptair埃及航空公司 
+NH All Nippon Airways日本全日空航空公司 
+NX Air Macau澳门航空公司 
+NZ Air New Zealand新西兰航空公司 
+OS Austrian Airlines AG奥地利航空公司 
+OZ Asiana Airlines韩国韩亚航空公司 
+SA South African Airways 南非航空公司 
+SC Shandong Airlines山东航空公司 
+SK SAS Scandinavian Airlines北欧航空公司 
+TK Turkish Airlines土耳其航空公司 
+TP TAP Air Portugal葡萄牙航空公司 
+UA United Airlines美国联合航空公司 
+US US Airways美国全美航空公司 
+VS Virgin Atlantic Airway英国维珍航空公司 
+ZH Shenzhen Airlines深圳航空公司 
+
+Aircraft Types部分机型三字码 
+32S Airbus Industrie A318/319/320/321空中客车A318/319/320/321 
+330 Airbus Industrie A330空中客车A330 
+340 Airbus Industrie A340空中客车A340 
+737 Boeing 737/737-300/800 Passenger波音737/737-300/737-800 全系列 
+747 Boeing 747-400 Passenger波音747-400全系列 
+757 Boeing 757 Passenger波音757全系列 
+777 Boeing 777/777-200 Passenger波音777/777-200全系列
+
+Class Of Service Offered舱位
+F First Class头等舱 
+C Business Class公务舱 
+Y Economy Class经济舱 
+
+Airports部分机场三字码：
+ARN	Stockholm Arlanda Sweden	斯德哥尔摩阿兰达机场	瑞典
+ATH	Athens Greece	雅典	希腊
+BAV	Baotou	包头	中国
+BHY	Beihai	北海	中国
+BJS	Beijing	北京	中国
+BKK	Bangkok Thailand	曼谷	泰国
+BLR	Bengaluru India	班加罗尔	印度
+BOM	Mumbai India	孟买	印度
+BPX	Qamdo/Changdu	昌都	中国
+CAN	Guangzhou	广州	中国
+CDG	Paris Charles De Gaulle France	巴黎戴高乐机场	法国
+CGK	Jakarta Soekarno-Hatta Indonesia	雅加达苏加诺哈达机场	印尼
+CGO	Zhengzhou	郑州	中国
+CGQ	Changchun	长春	中国
+CHG	Chaoyang	朝阳	中国
+CIF	Chifeng	赤峰	中国
+CIH	Changzhi	长治	中国
+CKG	Chongqing	重庆	中国
+CSX	Changsha	长沙	中国
+CTS	Sapporo Chitose Japan	札幌机场	日本
+CTU	Chengdu	成都	中国
+CZX	Changzhou	常州	中国
+DAT	Datong	大同	中国
+DAX	Dazhou	达州	中国
+DDG	Dandong	丹东	中国
+DEL	Delhi India	德里	印度
+DLC	Dalian	大连	中国
+DNH	Dunhuang	敦煌	中国
+DQA	Daqing	大庆	中国
+DSN	Ordos	鄂尔多斯	中国
+DUS	Duesseldorf Germany	杜塞尔多夫	德国
+DXB	Dubai United Arab Emirates	迪拜	阿联酋
+DYG	Zhangjiajie	张家界	中国
+FCO	Rome Fiumicino Italy	罗马机场	意大利
+FNJ	Pyongyang Korea Democratic People’s Republic of	平壤	朝鲜
+FOC	Fuzhou	福州	中国
+FRA	Frankfurt Germany	法兰克福	德国
+FUG	Fuyang	阜阳	中国
+FUK	Fukuoka Japan	福冈	日本
+GMP	Seoul Gimpo Korea Republic of	首尔金浦机场	韩国
+GRU	Sao Paulo Guarulhos Brazil	圣保罗瓜如尔赫斯机场	巴西
+GYS	Guangyuan	广元	中国
+HAK	Haikou	海口	中国
+HET	Hohhot	呼和浩特	中国
+HFE	Hefei	合肥	中国
+HGH	Hangzhou	杭州	中国
+HIJ	Hiroshima Japan	广岛	日本
+HKG	Hong Kong	香港	中国
+HKT	Phuket Thailand	普吉	泰国
+HLD	Hailar	海拉尔	中国
+HLH	Ulanhot	乌兰浩特	中国
+HND	Tokyo Haneda Japan	东京羽田机场	日本
+HRB	Harbin	哈尔滨	中国
+HTA	Chita Russia	赤塔	俄罗斯
+HTN	Hotan	和田	中国
+HYN	Taizhou	黄岩	中国
+ICN	Seoul Incheon Korea Republic of	首尔机场	韩国
+INC	Yinchuan	银川	中国
+JDZ	Jingdezhen	景德镇	中国
+JFK	New York J F Kennedy USA	USA纽约肯尼迪机场	美国
+JGS	Jinggangshan	井冈山	中国
+JJN	Quanzhou	晋江	中国
+JKT	Jakarta Indonesia	雅加达	印尼
+JMU	Jiamusi	佳木斯	中国
+JZH	Song Pan	九寨沟	中国
+KHG	Kashi	喀什	中国
+KHI	Karachi Pakistan	卡拉奇	巴基斯坦
+KHN	Nanchang	南昌	中国
+KIX	Osaka Kansai Japan	大阪机场	日本
+KMG	Kunming	昆明	中国
+KOW	Ganzhou	赣州	中国
+KRL	Korla	库尔勒	中国
+KTM	Kathmandu Nepal	加德满都	尼泊尔
+KUL	Kuala Lumpur Malaysia	吉隆坡	马来西亚
+KWE	Guiyang	贵阳	中国
+KWL	Guilin	桂林	中国
+LAX	Los Angeles USA	USA洛杉矶	美国
+LGW	London Gatwick United Kingdom	伦敦盖特威克机场	英国
+LHR	London Heathrow United Kingdom	伦敦希思罗机场	英国
+LHW	Lanzhou	兰州	中国
+LJG	Lijiang	丽江	中国
+LON	London United Kingdom	伦敦	英国
+LXA	Lhasa/Lasa	拉萨	中国
+LYG	Lianyungang	连云港	中国
+LZH	Liuzhou	柳州	中国
+LZO	Luzhou	泸州	中国
+LZY	Nyingchi/Linzhi	林芝	中国
+MAD	Madrid Spain	马德里	西班牙
+MEL	Melbourne Australia	墨尔本	澳大利亚
+MFM	Macau Macao (SAR) China	澳门	中国
+MIG	Mian Yang	绵阳	中国
+MIL	Milan Italy	米兰	意大利
+MNL	Manila Philippines	马尼拉	菲律宾
+MOW	Moscow Russia	莫斯科	俄罗斯
+MUC	Munich Germany	幕尼黑	德国
+MXP	Milan Malpensa Italy	米兰马尔佩萨机场	意大利
+NDG	Qiqihar	齐齐哈尔	中国
+NGB	Ningbo	宁波	中国
+NGO	Nagoya Japan	名古屋	日本
+NKG	Nanjing	南京	中国
+NNG	Nanning	南宁	中国
+NRT	Tokyo Narita Japan	东京成田机场	日本
+NTG	Nantong	南通	中国
+NYC	New York USA	USA纽约	美国
+NZH	Manzhouli	满洲里	中国
+OKA	Okinawa Japan	冲绳	日本
+OSA	Osaka Japan	大阪	日本
+PAR	Paris France	巴黎	法国
+PEK	Beijing Capital	北京首都国际机场	中国
+PUS	Busan Korea Republic of	釜山	韩国
+PVG	Shanghai Pudong	上海浦东	中国
+RGN	Yangon Myanmar	仰光	缅甸
+RKZ	Rikaze	日喀则	中国
+RLK	Bayannur	巴彦淖尔	中国
+RMQ	Taichung Ching Chuan Kang	台中	中国台湾
+ROM	Rome Italy	罗马	意大利
+SAO	Sao Paulo Brazil	圣保罗	巴西
+SDJ	Sendai Japan	仙台	日本
+SEL	Seoul Korea Republic of	首尔	韩国
+SFO	San Francisco USA	USA旧金山	美国
+SGN	Ho Chi Minh City Viet Nam	胡志明市	越南
+SHA	Shanghai Hongqiao	上海	中国
+SHE	Shenyang	沈阳	中国
+SIA	Xi An	西安	中国
+SIN	Singapore Singapore	新加坡	新加坡
+SPK	Sapporo Japan	札幌	日本
+STO	Stockholm Sweden	斯德哥尔摩	瑞典
+SVO	Moscow Sheremetyevo Russia	莫斯科谢列梅捷沃机场	俄罗斯
+SWA	Shantou	汕头	中国
+SYD	Sydney Australia	悉尼	澳大利亚
+SYX	Sanya	三亚	中国
+SZX	Shenzhen	深圳	中国
+TAE	Daegu Korea Republic of	大邱	韩国
+TAO	Qingdao	青岛	中国
+TGO	Tongliao	通辽	中国
+TNA	Jinan	济南	中国
+TPE	Taipei Taiwan Taoyuan Taipei	台北	中国
+TSA	Taipei Sung Shan Taipei	台北淞山	中国台湾
+TSN	Tianjin	天津	中国
+TXN	Tunxi	黄山	中国
+TYN	Taiyuan	太原	中国
+TYO	Tokyo Japan	东京	日本
+ULN	Ulaanbaatar Mongolia	乌兰巴托	蒙古
+URC	Urumqi	乌鲁木齐	中国
+WEH	Weihai	威海	中国
+WNZ	Wenzhou	温州	中国
+WUH	Wuhan	武汉	中国
+WUX	Wuxi	无锡	中国
+WXN	Wanzhou	万州	中国
+XFN	Xiangfan	襄樊	中国
+XIC	Xichang	西昌	中国
+XIL	Xilinhot	锡林浩特	中国
+XIY	Xi An Xianyang	西安	中国
+XMN	Xiamen	厦门	中国
+XNN	Xining	西宁	中国
+XUZ	Xuzhou	徐州	中国
+YBP	Yibin	宜宾	中国
+YCU	Yun Cheng	运城	中国
+YIH	Yichang	宜昌	中国
+YIW	Yiwu	义乌	中国
+YNJ	Yanji	延吉	中国
+YNT	Yantai	烟台	中国
+YNZ	Yancheng	盐城	中国
+YTY	Yangzhou	扬州	中国
+YVR	Vancouver Canada	温哥华	加拿大
+ZHA	Zhanjiang	湛江	中国
+ZUH	Zhuhai	珠海	中国

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\Hua">
+      <UniqueIdentifier>{15352c4c-bfd6-4090-ba7c-10cc6d56417b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Lei">
+      <UniqueIdentifier>{4537a771-cc10-4f24-83ce-d8157b3b73cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\Tang">
+      <UniqueIdentifier>{455825d4-01f4-4301-9304-b3523db946b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lei\function.h">
+      <Filter>资源文件\Lei</Filter>
+    </ClInclude>
+    <ClInclude Include="Tang\用户信息表.h">
+      <Filter>资源文件\Tang</Filter>
+    </ClInclude>
+    <ClInclude Include="fun.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Tang\注册登录找回.cpp">
+      <Filter>资源文件\Tang</Filter>
+    </ClCompile>
+    <ClCompile Include="Lei\function.cpp">
+      <Filter>资源文件\Lei</Filter>
+    </ClCompile>
+    <ClCompile Include="fun.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
