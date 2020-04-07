@@ -518,7 +518,7 @@ int DeleteFlight(FlightID* ID, FlightTicket* DATA, int& IDcount, int Delete)
 //订票相关函数
 int Searching(FlightID* ID, FlightTicket* DATA, int daycount)
 {
-	int i, j, a, f, e, b, r, count = 0;
+	int i, j, a, f, e, b=0, r, count = 0;
 	for (i = 0; i < 999; i++)
 	{
 		if ((strcmp(ID[i].ArrivalAirport, custom.destination) == 0)\
@@ -557,7 +557,7 @@ int Searching(FlightID* ID, FlightTicket* DATA, int daycount)
 }
 void Booking(FlightTicket* DATA, int n, char Class, char seat[3], int account, int size)//n是DATA的数组序号，account为用户账号,size是飞机型号判断结果
 {
-	int p_num, i, a, b, c = 0;
+	int p_num=0, i, a, b, c = 0;
 	for (i = 0; i < 3; i++)
 	{
 		if (seat[i] != '/0')
@@ -567,7 +567,7 @@ void Booking(FlightTicket* DATA, int n, char Class, char seat[3], int account, i
 	{
 		if (p_num == 1)//单人
 		{
-			if (Class = 'f')
+			if (Class == 'f')
 			{
 				if (p_num > DATA[n].FirstClassTicketRemain)
 					cout << "对不起，您的订票信息有误" << endl;
@@ -603,7 +603,7 @@ void Booking(FlightTicket* DATA, int n, char Class, char seat[3], int account, i
 		}
 		else//双人
 		{
-			if (Class = 'f')
+			if (Class == 'f')
 			{
 				if (p_num > DATA[n].FirstClassTicketRemain)
 					cout << "对不起，您的订票信息有误" << endl;
@@ -649,7 +649,7 @@ void Booking(FlightTicket* DATA, int n, char Class, char seat[3], int account, i
 	{
 		if (p_num == 1)
 		{
-			if (Class = 'f')
+			if (Class == 'f')
 			{
 				if (p_num > DATA[n].FirstClassTicketRemain)
 					cout << "对不起，您的订票信息有误" << endl;
@@ -666,7 +666,7 @@ void Booking(FlightTicket* DATA, int n, char Class, char seat[3], int account, i
 
 				}
 			}
-			else if (Class = 'b')
+			else if (Class == 'b')
 			{
 				if (p_num > DATA[n].BusinessClassTicketRemain)
 					cout << "对不起，您的订票信息有误" << endl;
@@ -701,7 +701,7 @@ void Booking(FlightTicket* DATA, int n, char Class, char seat[3], int account, i
 		}
 		else//双人
 		{
-			if (Class = 'f')
+			if (Class == 'f')
 			{
 				if (p_num > DATA[n].FirstClassTicketRemain)
 					cout << "对不起，您的订票信息有误" << endl;
@@ -724,7 +724,7 @@ void Booking(FlightTicket* DATA, int n, char Class, char seat[3], int account, i
 					}
 				}
 			}
-			else if (Class = 'b')
+			else if (Class == 'b')
 			{
 				if (p_num > DATA[n].BusinessClassTicketRemain)
 					cout << "对不起，您的订票信息有误" << endl;
@@ -776,7 +776,8 @@ void Booking(FlightTicket* DATA, int n, char Class, char seat[3], int account, i
 }
 void Refunding(FlightTicket* DATA, int n, char seat[3], int account, char Class)//退票
 {
-	int p_num, i, a, b = 0, c;
+	int p_num = 0;
+    int i, a, b = 0, c;
 	for (i = 0; i < 3; i++)
 	{
 		if (seat[i] != '/0')
@@ -790,12 +791,12 @@ void Refunding(FlightTicket* DATA, int n, char seat[3], int account, char Class)
 			if (DATA[n].Seat[a][b] == account)
 			{
 				DATA[n].Seat[a][b] = 0;
-				if (Class = 'f')
+				if (Class =='f')
 				{
 					DATA[n].FirstClassTicketRemain++;
 					cout << "您已成功退票" << endl;
 				}
-				else if (Class = 'b')
+				else if (Class =='b')
 				{
 					DATA[n].BusinessClassTicketRemain++;
 					cout << "您已成功退票" << endl;
@@ -818,12 +819,12 @@ void Refunding(FlightTicket* DATA, int n, char seat[3], int account, char Class)
 			{
 				DATA[n].Seat[a][b] = 0;
 				DATA[n].Seat[a][c] = 0;
-				if (Class = 'f')
+				if (Class == 'f')
 				{
 					DATA[n].FirstClassTicketRemain = DATA[n].FirstClassTicketRemain + 2;
 					cout << "您已成功退票" << endl;
 				}
-				else if (Class = 'b')
+				else if (Class == 'b')
 				{
 					DATA[n].BusinessClassTicketRemain = DATA[n].BusinessClassTicketRemain + 2;
 					cout << "您已成功退票" << endl;
