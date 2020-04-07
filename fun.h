@@ -44,6 +44,7 @@ int DateTransfer(int year, int month, int day);//返回日期对应天数
 int JudgeAircraftSize(FlightID* ID, int n);//判断飞机是小飞机还是大飞机，小飞机返回1，大飞机返回2
 int JudgeAircraftSizeSeat(int n);
 int FirstClassTicketRemain(FlightTicket* DATA, int daycount, int i, int judge);//头等舱订票人数
+int BusinessClassTicketRemain(FlightTicket* DATA, int daycount, int i);
 int EconomyClassTicketRemain(FlightTicket* DATA, int daycount, int i, int judge);//经济舱订票人数
 int hour(int x);//对飞行时间的分段
 int minut(int x);//对飞行时间的分段
