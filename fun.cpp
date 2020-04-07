@@ -1,39 +1,7 @@
 #include <iostream>
 #include <string.h>
+#include"fun.h"
 using namespace std;
-typedef struct FlightID //用于表示航班号，航班号只代表航班基本信息。
-{
-	char Carrier[4] = { 'X','X','X','X' };						//航空公司，用两个大写字母表示
-	char ID[8] = { 'X','X' ,'X' ,'X','X','X' ,'X' ,'X' };								//航班号
-	char FlyDay[8] = { 'X','X' ,'X' ,'X' ,'X' ,'X' ,'X' ,'X' };							//开航日期，以星期为周期，星期几与数组下标对应，开航为1，不开航为0
-	char DepartureAirport[8] = { 'X','X','X' ,'X' ,'X' ,'X' ,'X' ,'X' };				//出发机场，三字码，为标明航站楼等，以字符串形式存储，注意结尾的\0
-	char ArrivalAirport[8] = { 'X','X' ,'X' ,'X' ,'X' ,'X' ,'X' ,'X' };					//抵达机场，三字码，为标明航站楼等，以字符串形式存储，注意结尾的\0
-	int DepartureTime = 2500;					//出发时刻，四字码
-	int ArrivalTime = 2500;					//到达时刻，四字码。eg 1230（12时30分）
-	int TravelTimeHour = 0;//飞行时间(时)
-	int TravelTimeMinute = 0;//飞行时间(分)
-	int Price = 0;
-	char AircraftType[4] = { 'X','X' ,'X' };					//飞机型号，三字码。eg 787，350
-	char Class[4] = { 'X','X' ,'X' ,'X' };							//舱位，两舱或三舱，注意结尾的\0。
-}FlightID;
-typedef struct FlightTicket //每日机票情况
-{
-	int Seat[50][10] = { 0 };
-	int FirstClassTicketRemain = 0;
-	int BusinessClassTicketRemain = 0;
-	int EconomyClassTicketRemain = 0;
-	int ActuralDepartureTime = 2500;
-	int ActuralArrivalTime = 2500;
-}FlightTicket;
-typedef struct bookiinginformation
-{
-	int year, month, day;
-	int primary;
-	char departure[8];
-	char destination[8];
-	int flyday;
-	int flynumber[999];
-}bookiinginformation;
 extern bookiinginformation custom;
 //辅助函数
 int WeekDayTransfer(int year, int month, int day)//使用蔡勒公式转换日期与星期
@@ -557,7 +525,7 @@ int Searching(FlightID* ID, FlightTicket* DATA, int daycount)
 }
 void Booking(FlightTicket* DATA, int n, char Class, char seat[3], int account, int size)//n是DATA的数组序号，account为用户账号,size是飞机型号判断结果
 {
-	int p_num, i, a, b, c = 0;
+	int p_num=0, i, a, b, c = 0;
 	for (i = 0; i < 3; i++)
 	{
 		if (seat[i] != '/0')
@@ -776,7 +744,7 @@ void Booking(FlightTicket* DATA, int n, char Class, char seat[3], int account, i
 }
 void Refunding(FlightTicket* DATA, int n, char seat[3], int account, char Class)//退票
 {
-	int p_num, i, a, b = 0, c;
+	int p_num=0, i, a, b = 0, c;
 	for (i = 0; i < 3; i++)
 	{
 		if (seat[i] != '/0')

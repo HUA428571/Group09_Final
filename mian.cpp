@@ -1,4 +1,4 @@
-#include"fun.cpp"
+#include"fun.h"
 #include<iostream>
 using namespace std;
 static  bookiinginformation custom;
